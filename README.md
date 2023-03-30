@@ -5,7 +5,7 @@ A simple command line tool to make a copy recursive of a directory without repli
 ## Install it
 
 ```bash
-npm install -g clean-copy
+npm install -g @codecapers/clean-copy
 ```
 
 ## Run it

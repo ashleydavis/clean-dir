@@ -1,20 +1,31 @@
 {
-  "name": "clean-copy",
-  "version": "1.0.0",
-  "description": "A simple command line tool to make a copy recursive of a directory without replicating node_modules.",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js ./test/src ./test/dest",
-    "start:dev": "node-dev --respawn src/index.js ./test/src ./test/dest"
-  },
-  "keywords": [],
-  "author": "ashley@codecapers.com.au",
-  "license": "MIT",
-  "devDependencies": {
-    "node-dev": "^8.0.0"
-  },
-  "dependencies": {
-    "fs-extra": "^11.1.1",
-    "minimist": "^1.2.8"
-  }
+    "name": "@codecapers/clean-copy",
+    "version": "0.0.1",
+    "description": "A simple command line tool to make a copy recursive of a directory without replicating node_modules.",
+    "main": "src/index.js",
+    "bin": {
+        "clean-copy": "./bin/cli"
+    },
+    "scripts": {
+        "start": "node src/index.js ./test/src ./test/dest",
+        "start:dev": "node-dev --respawn src/index.js ./test/src ./test/dest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://ashleydavis@github.com/ashleydavis/clean-copy.git"
+    },
+    "keywords": [],
+    "author": "ashley@codecapers.com.au",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ashleydavis/clean-copy/issues"
+    },
+    "homepage": "https://github.com/ashleydavis/clean-copy#readme",
+    "devDependencies": {
+        "node-dev": "^8.0.0"
+    },
+    "dependencies": {
+        "fs-extra": "^11.1.1",
+        "minimist": "^1.2.8"
+    }
 }

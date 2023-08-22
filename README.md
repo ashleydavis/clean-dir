@@ -1,17 +1,17 @@
-# clean-copy
+# clean-dir
 
-A simple command line tool to make a copy recursive of a directory without replicating node_modules.
+A simple command line tool to make a recursively delete node_modules directories.
 
 ## Install it
 
 ```bash
-npm install -g @codecapers/clean-copy
+npm install -g @codecapers/clean-dir
 ```
 
 ## Run it
 
 ```bash
-clean-copy <source-directory> <destination-directory>
+clean-dir <directory>
 ```
 
 ## Development
@@ -19,7 +19,7 @@ clean-copy <source-directory> <destination-directory>
 ### Run it from code
 
 ```bash
-cd clean-copy
+cd clean-dir
 npm install
 npm start
 ```
@@ -27,7 +27,7 @@ npm start
 ### Run it for development
 
 ```bash
-cd clean-copy
+cd clean-dir
 npm install
 npm run start:dev
 ```
